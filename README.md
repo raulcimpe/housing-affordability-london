@@ -1,13 +1,14 @@
-# Analysis of housing affordability for key workers in London (2010–2025) using Python (CRISP-DM) and Tableau dashboards.
+# Housing Affordability for Key Workers in London (2010–2025)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![Tableau: Public Dashboards](https://img.shields.io/badge/Tableau-Public-blue)](https://public.tableau.com/app/profile/raul.c1685/vizzes)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Tableau](https://img.shields.io/badge/Tableau-Public-blue.svg)](dashboards/README.md)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)]()
 
 This repository contains a final-year project developed at **London South Bank University (LSBU)**.  
-It investigates to what extent **key public sector workers in London** — teachers, NHS nurses, and TfL bus drivers —  
-are excluded from **affordable home ownership** between **2010 and 2025**.
+It investigates to what extent **key public sector workers in London** — teachers, NHS nurses, and TfL bus drivers — are excluded from **affordable home ownership** between **2010 and 2025**.
 
-> **Data policy (BYOD):** This repository does **not** include raw datasets or the final written report.  
+> **Data policy (BYOD):** This repository does not include raw datasets or the final written report.  
 > Instead, it provides the project structure, Jupyter/Colab notebooks, Tableau dashboards, and documentation.  
 > To replicate results, use public UK datasets (ONS, NHS, DfE, TfL) with the provided notebooks.
 
@@ -15,14 +16,13 @@ are excluded from **affordable home ownership** between **2010 and 2025**.
 
 ## 🔍 Introduction
 Affordability pressures in global cities can displace essential workers and strain public services.  
-This project applies recognised housing affordability metrics — primarily the **House Price to Income Ratio (HPIR)** —  
-across **32 London boroughs** and key worker groups to quantify the affordability gap.  
+This project applies recognised **housing affordability metrics** — primarily the **House Price to Income Ratio (HPIR)** — across **32 London boroughs** and key worker groups to quantify the affordability gap.
 
-The project follows the **CRISP-DM methodology**, ensuring a structured approach:  
-- **Business Understanding**: Define the research problem and scope.  
-- **Data Understanding & Preparation**: Explore, clean, and transform datasets.  
-- **Modeling & Evaluation**: Apply affordability metrics and test thresholds.  
-- **Deployment**: Communicate results via Tableau dashboards.  
+The project follows the **CRISP-DM methodology**, ensuring a structured approach:
+- **Business Understanding:** Define research problem and scope.  
+- **Data Understanding & Preparation:** Collect, clean, and transform datasets.  
+- **Modelling & Evaluation:** Apply affordability metrics and test thresholds.  
+- **Deployment:** Communicate results via Tableau dashboards.  
 
 ---
 
@@ -30,29 +30,35 @@ The project follows the **CRISP-DM methodology**, ensuring a structured approach
 ```
 housing-affordability-london/
 ├── notebooks/ # Jupyter/Colab notebooks (analysis & data prep)
-│ └── london_housing_final.ipynb
+│ ├── london_housing_final.ipynb
+│ └── README.md
 ├── dashboards/ # Tableau workbooks and exports
-│ └── [links to Tableau Public dashboards]
+│ └── README.md
 ├── LICENSE # MIT License
-└── README.md # Project documentation
+└── README.md # Main project documentation
 ```
 ---
 
-## 📊 Dashboards
-Interactive Tableau dashboards are available on **Tableau Public**:  
-👉 [View Dashboards](https://public.tableau.com/app/profile/raul.c1685/vizzes)  
 
-Dashboards include:  
-- **House Price Index (HPI) Trends**: London vs UK average (2010–2025)  
-- **Key Worker Salary Trends**: NHS staff, teachers, and TfL bus drivers  
-- **Affordability Metrics**: HPIR, threshold breaches, and deposit ratios  
-- **Borough Comparisons**: Most vs least affordable areas  
+👉 Explore [Notebooks](notebooks/README.md) and [Dashboards](dashboards/README.md) for details.
 
 ---
 
-## 📓 Notebooks
-The analysis is fully reproducible using the provided Jupyter/Colab notebook:  
-- **`london_housing_final.ipynb`** — End-to-end workflow covering:  
+## 📊 Dashboards
+Interactive Tableau dashboards are available on **[Tableau Public](https://public.tableau.com/app/profile/raul.c1685/vizzes)**.
+
+Dashboards include:
+- **House Price Index (HPI)** Trends (2010–2025)  
+- **Key Worker Salary Evolution** (NHS staff, teachers, TfL bus drivers)  
+- **Affordability Metrics:** HPIR thresholds, breaches, and deposit ratios  
+- **Borough Comparisons:** Most vs least affordable areas  
+
+---
+
+## 📒 Notebooks
+The analysis is fully reproducible using the provided Jupyter/Colab notebook:
+
+- `london_housing_final.ipynb` — End-to-end workflow covering:
   - Data exploration and cleaning  
   - Calculation of affordability ratios (HPIR)  
   - Borough-level comparisons  
@@ -60,8 +66,8 @@ The analysis is fully reproducible using the provided Jupyter/Colab notebook:
 
 ---
 
-## 🚀 Quickstart
-If you wish to run the notebooks locally:  
+## ⚙️ Quickstart
+To run the notebooks locally:
 
 ```bash
 # 1. Clone this repository
@@ -74,7 +80,7 @@ python -m venv .venv
 # 3. Activate it
 # On Windows
 .venv\Scripts\activate
-# On Linux/Mac
+# On Linux / Mac
 source .venv/bin/activate
 
 # 4. Install dependencies (if requirements.txt is provided)
@@ -82,6 +88,7 @@ pip install -r requirements.txt
 ```
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
+
 
 
 
