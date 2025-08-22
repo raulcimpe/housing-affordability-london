@@ -1,9 +1,8 @@
 # Housing Affordability for Key Workers in London (2010–2025)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Tableau](https://img.shields.io/badge/Tableau-Public-blue.svg)](dashboards/README.md)
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)]()
+[![Tableau](https://img.shields.io/badge/Tableau-Public-blue.svg)](https://public.tableau.com/app/profile/raul.c1685/vizzes)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://github.com/raulcimpe/housing-affordability-london/blob/main/notebooks/london_housing_final.ipynb)
 
 This repository contains a final-year project developed at **London South Bank University (LSBU)**.  
 It investigates to what extent **key public sector workers in London** — teachers, NHS nurses, and TfL bus drivers — are excluded from **affordable home ownership** between **2010 and 2025**.
@@ -88,6 +87,7 @@ pip install -r requirements.txt
 ```
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
+
 
 
 
