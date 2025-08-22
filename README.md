@@ -1,4 +1,4 @@
-# Housing Affordability for Key Workers in London (2010–2025)
+#Analysis of housing affordability for key workers in London (2010–2025) using Python (CRISP-DM) and Tableau dashboards.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 [![Tableau: Public Dashboards](https://img.shields.io/badge/Tableau-Public-blue)](https://public.tableau.com/app/profile/raul.c1685/vizzes)
@@ -27,6 +27,7 @@ The project follows the **CRISP-DM methodology**, ensuring a structured approach
 ---
 
 ## ⚙️ Project Structure
+```
 housing-affordability-london/
 ├── notebooks/ # Jupyter/Colab notebooks (analysis & data prep)
 │ └── london_housing_final.ipynb
@@ -34,7 +35,7 @@ housing-affordability-london/
 │ └── [links to Tableau Public dashboards]
 ├── LICENSE # MIT License
 └── README.md # Project documentation
-
+```
 ---
 
 ## 📊 Dashboards
@@ -79,6 +80,7 @@ source .venv/bin/activate
 # 4. Install dependencies (if requirements.txt is provided)
 pip install -r requirements.txt
 ```
-📜 License
+## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
+
 
