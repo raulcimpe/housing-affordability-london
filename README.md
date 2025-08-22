@@ -47,9 +47,9 @@ housing-affordability-london/
 Interactive Tableau dashboards are available on **[Tableau Public](https://public.tableau.com/app/profile/raul.c1685/vizzes)**.
 
 Dashboards include:
-- **Housing Affordability Assessment 
-- **Key Worker Salary Trends and Affordability 
-- **Housing Affordability Assessment for Key Workers in London (2010–2025) 
+- #### Housing Affordability Assessment 
+- #### Key Worker Salary Trends and Affordability 
+- #### Housing Affordability Assessment for Key Workers in London (2010–2025) 
 
 ---
 
@@ -86,6 +86,7 @@ pip install -r requirements.txt
 ```
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
+
 
 
 
