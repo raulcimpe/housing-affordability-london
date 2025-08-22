@@ -24,6 +24,11 @@ The project follows the **CRISP-DM methodology**, ensuring a structured approach
 - **Deployment:** Communicate results via Tableau dashboards.  
 
 ---
+## 🛠️ Technologies
+- **Python** (pandas, matplotlib, seaborn) – Data analysis and preparation  
+- **Jupyter/Colab** – Reproducible notebooks for analysis  
+- **Tableau Public** – Interactive dashboards and visualisation  
+- **CRISP-DM** – Methodological framework for structuring the project  
 
 ## ⚙️ Project Structure
 ```
@@ -47,10 +52,12 @@ housing-affordability-london/
 Interactive Tableau dashboards are available on **[Tableau Public](https://public.tableau.com/app/profile/raul.c1685/vizzes)**.
 
 Dashboards include:
-- #### Housing Affordability Assessment 
-- #### Key Worker Salary Trends and Affordability 
-- #### Housing Affordability Assessment for Key Workers in London (2010–2025) 
-
+Dashboards include:
+- **House Price Index (HPI) Trends (2010–2025):** Comparison of London boroughs vs UK average.  
+- **Key Worker Salary Trends and Affordability:** Evolution of NHS, teachers, and TfL bus driver salaries against housing costs.  
+- **Affordability Threshold Breach Years:** Identification of when HPIR exceeded the critical 8.5 threshold.  
+- **Borough Comparisons:** Analysis of the most and least affordable boroughs in selected years (2010, 2015, 2020, 2025).  
+- **Deposit as % of Salary (2025):** Required upfront costs relative to annual income.  
 ---
 
 ## 📒 Notebooks
@@ -86,6 +93,7 @@ pip install -r requirements.txt
 ```
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
+
 
 
 
